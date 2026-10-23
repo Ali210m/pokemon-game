@@ -5,5 +5,5 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react()],
 
-  base: "/",
+  base: process.env.GITHUB_ACTIONS ? "/pokemon-game/" : "/",
 });
