@@ -1,0 +1,29 @@
+.app {
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #fffbea, #ffefad);
+  text-align: center;
+}
+
+.title {
+  color: #493914;
+  font-size: 40px;
+  margin: 0 0 24px;
+}
+
+.battleButton {
+  background-color: #ffc928;
+  color: #3d3010;
+  border: 2px solid #e6a900;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.battleButton:hover {
+  background-color: #ffb900;
+}

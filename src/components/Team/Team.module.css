@@ -1,0 +1,16 @@
+.team {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  margin: 30px auto;
+}
+
+.teamTitle {
+  text-align: left;
+
+  color: #6b4d0c;
+  font-size: 26px;
+}

@@ -1,0 +1,42 @@
+.battleResult {
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.battleResultTitle {
+  color: #493914;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.resultRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.teamPower {
+  margin: 0;
+  color: #756644;
+  font-size: 22px;
+}
+
+.teamPowerValue {
+  color: #493914;
+  font-size: 22px;
+}
+
+.winner {
+  margin: 0;
+  color: #ff0000;
+  font-size: 22px;
+}
+
+@media (max-width: 600px) {
+  .resultRow {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
